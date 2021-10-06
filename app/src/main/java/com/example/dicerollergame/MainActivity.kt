@@ -78,6 +78,8 @@ class MainActivity : AppCompatActivity() {
             println("size1: "+size1+"size2: "+size2)
 
             compare(size1,size2)
+            dicesPlayer1.clear()
+            dicesPlayer2.clear()
         }
     }
 
